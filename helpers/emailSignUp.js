@@ -23,6 +23,8 @@ const emailSignUp = async ({email, name, token}) => {
         <p> Si tu no creaste esta cuenta puedes ignorar este mensaje </p>
     `
   });
+
+  console.log(info);
 };
 
 export default emailSignUp;
