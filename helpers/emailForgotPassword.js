@@ -13,7 +13,7 @@ const emailForgotPassword = async ({email, name, token}) => {
 
     // Enviar el eamil
     const info = await transport.sendMail({
-    from : "APV - Administrador de pacientes de veterinaria",
+    from : "gomezjean266@gmail.com",
     to : email, 
     subject : "Reestablece tu Password de APV",
     text : "Reestablece tu Password de APV",
