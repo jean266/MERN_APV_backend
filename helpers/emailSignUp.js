@@ -12,7 +12,7 @@ const emailSignUp = async ({email, name, token}) => {
 
   // Enviar el eamil
   const info = await transport.sendMail({
-    from : "APV - Administrador de pacientes de veterinaria",
+    from : "gomezjean266@gmail.com",
     to : email, 
     subject : "Compruba tu cuenta de APV",
     text : "Compruba tu cuenta de APV",
